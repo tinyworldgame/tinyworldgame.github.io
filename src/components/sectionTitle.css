@@ -1,0 +1,25 @@
+.section-title {
+  margin: 0 auto;
+  width: 85%;
+  padding: 1.5% 0;
+  height: 4rem;
+  line-height: 4rem;
+  background-image: url(../images/biaoti.png);
+  text-align: center;
+  font-family: "ClashRoyale";
+  font-size: 1.4rem;
+  color: #514b45;
+}
+
+@media (min-width: 1600px) {
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .section-title {
+    margin-top: 10px;
+  }
+}

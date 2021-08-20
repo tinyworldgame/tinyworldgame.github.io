@@ -1,0 +1,460 @@
+/* ---------- section1 的样式 ---------- */
+.section1 {
+  height: 100vh;
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ---------- section2 的样式 ---------- */
+.section2 {
+  padding-bottom: 1.5%;
+}
+
+.section2 > .section-title {
+  margin-top: calc(20px + 0.5%);
+}
+
+/* 悬浮图 */
+.section2-img-person1 {
+  position: absolute;
+  right: -20px;
+  bottom: 15%;
+  opacity: 0.3;
+  transform: scale(1.8) rotateY(180deg);
+  transform-origin: bottom;
+  z-index: -2;
+}
+
+.section2-img-person2 {
+  position: absolute;
+  right: 20px;
+  bottom: 5%;
+  z-index: -1;
+  transform: rotateY(180deg);
+}
+
+.section2-img-diwen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 600px;
+  max-height: 70%;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+/* 中间内容 */
+.section2-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(5px + 1.8%) auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2-img-banner {
+  width: calc(480px + 22%);
+  min-width: 300px;
+  object-fit: contain;
+}
+
+.section2-content-text-container {
+  margin-top: calc(10px + 2%);
+  padding: calc(25px + 1%) calc(15px + 1.5%) 20px;
+  height: 260px;
+  width: calc(340px + 4%);
+  background-image: url(../images/di.png);
+}
+
+.section2-text {
+  margin-top: calc(5px + 2.5%);
+  line-height: 1.5;
+  color: white;
+}
+
+.section2-img-button,
+.section4-img-button {
+  height: 50px;
+  width: 140px;
+  font-size: 1rem;
+  background-image: url(../images/button_1.png);
+  text-shadow: #333 1px 0 0, #333 0 1px 0, #333 -1px 0 0, #333 0 -1px 0;
+}
+
+.section2-img-button {
+  margin-left: 20px;
+}
+
+@media (min-width: 1600px) {
+  .section2-text {
+    margin-top: calc(5px + 4.5%);
+  }
+  .section2-img-container {
+    margin-top: calc(12px + 5%);
+  }
+}
+
+@media (max-width: 800px) {
+  .section2 {
+    padding-top: 10px;
+  }
+  .section2-content-text-container {
+    margin-top: 0;
+    height: 240px;
+  }
+  .section2-img-container {
+    width: 95%;
+  }
+  .section2-img-person2 {
+    display: none;
+  }
+}
+
+/* ---------- section3 的样式 ---------- */
+.section3 {
+  margin-top: -30px;
+  min-height: 840px;
+}
+.section3-img-center {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  min-width: 800px;
+  height: 60%;
+  max-height: 600px;
+  z-index: -1;
+}
+
+.section3-img-left1 {
+  position: absolute;
+  top: -5%;
+  transform: translateX(-50%);
+  height: 80%;
+}
+
+.section3-img-right1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  transform: rotateX(180deg);
+}
+
+.section3-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 1800px;
+}
+
+.section3-img-box {
+  margin: 0 20px 2%;
+  width: calc(160px + 10%);
+  height: 100%;
+  color: white;
+}
+
+.section3-img-box > p {
+  margin-top: 1rem;
+  padding: 0 calc(20px + 5%);
+}
+
+.section3-img-bg {
+  height: calc(350px + 12%);
+  padding-top: 201%;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.section3-img-banner1 {
+  background-image: url("../images/banner3_1.png");
+}
+.section3-img-banner2 {
+  background-image: url("../images/banner3_2.png");
+}
+.section3-img-banner3 {
+  background-image: url("../images/banner3_3.png");
+}
+
+.section3-img-bg-text {
+  margin-top: calc(-50% - 10px);
+  font-size: 1.2rem;
+  font-family: "ClashRoyale";
+}
+
+@media (min-width: 1600px) {
+  .section3-content {
+    margin-top: calc(50px + 0.5%);
+  }
+}
+
+@media (max-width: 600px) {
+  .section3-content {
+    margin-top: calc(10px + 0.5%);
+  }
+  .section3-img-box {
+    margin-bottom: 50px;
+    width: calc(80px + 70%);
+  }
+  .section3-img-center {
+    display: none;
+  }
+}
+
+/* ---------- section4 的样式 ---------- */
+.section4 {
+  height: 900px;
+}
+.mySwiper {
+  margin-top: 20px;
+  padding-bottom: 60px;
+  height: 95%;
+  max-height: 600px;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  opacity: 1;
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: width 0.2s;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  color: #fff;
+  background: #fecc23;
+  width: 45px;
+}
+
+.swiper-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: calc(50px + 1%) auto 0;
+  padding: 2% 20px 10px;
+  height: calc(380px + 3%);
+  max-height: 600px;
+  max-width: 1600px;
+}
+
+.swiper-content-bg {
+  position: absolute;
+  width: 100%;
+  height: calc(85% - 20px);
+  padding-bottom: 3%;
+  left: 0;
+  right: 0;
+  top: 9%;
+  background-color: #1c6fb7;
+  z-index: -1;
+}
+
+.section4-img-button {
+  margin-top: 8%;
+}
+
+.swiper-content .swiper-content-img-container {
+  position: relative;
+  margin-top: calc(40px - 2%);
+  width: 65%;
+  max-width: 1200px;
+}
+
+.swiper-content-img-container .swiper-content-img {
+  width: 100%;
+  margin-top: -70px;
+  object-fit: contain;
+}
+
+.swiper-content-img-container .swiper-content-img-left {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  width: 17%;
+}
+.swiper-content-img-container .swiper-content-img-right {
+  position: absolute;
+  width: 18%;
+  bottom: 40px;
+  right: 20px;
+  transform: rotateY(180deg);
+}
+
+.swiper-content .swiper-content-right {
+  margin-top: calc(80px + 0.5%);
+  width: calc(280px + 5%);
+  color: white;
+}
+
+.swiper-content-right > ul > li {
+  margin-bottom: calc(0.2rem + 3%);
+  font-size: 1.25rem;
+}
+
+@media (min-width: 1600px) {
+  .swiper-content .swiper-content-right {
+    width: calc(320px + 5%);
+  }
+}
+
+@media (max-width: 600px) {
+  .section4 {
+    height: 640px;
+  }
+  .mySwiper {
+    max-height: 520px;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+  .swiper-content .swiper-content-img-container {
+    width: 100%;
+  }
+  .swiper-content-img-container .swiper-content-img-left {
+    transform: scale(0.8);
+  }
+  .swiper-content-img-container .swiper-content-img-right {
+    bottom: 10px;
+    right: 10px;
+    transform: rotateY(180deg) scale(0.8);
+  }
+  .swiper-content .swiper-content-right {
+    margin-top: calc(10px + 0.5%);
+  }
+  .section4-img-button {
+    margin-top: 4%;
+  }
+}
+
+/* ---------- section5 的样式 ---------- */
+.section5 {
+  min-height: 80vh;
+  text-align: center;
+}
+
+.sub-title {
+  font-size: 1.4em;
+}
+
+.section5-text {
+  margin: 20px auto;
+  width: 75%;
+  max-width: 1350px;
+  font-size: 1.05rem;
+}
+
+.section5-img-left1 {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  margin-left: -10px;
+  height: 70%;
+  opacity: 0.5;
+}
+
+.section5-img-right1 {
+  position: absolute;
+  bottom: 25%;
+  right: 0;
+  margin-right: -50px;
+  transform: rotateY(180deg) scale(1.8);
+  transform-origin: bottom;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.section5-img-right2 {
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+  margin-right: 30px;
+  transform: rotateY(180deg);
+}
+
+.section5-icons-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px auto 1%;
+  max-width: 1200px;
+  color: #585858;
+}
+.section5-icons-item-box {
+  max-width: 220px;
+}
+
+.section5-icon {
+  margin-bottom: 5px;
+  width: calc(70px + 10%);
+}
+
+.section5-content {
+  margin: 50px auto;
+  width: 75%;
+  max-width: 1200px;
+}
+
+.section5-poster {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .section5-content {
+    margin-bottom: 20px;
+    width: 95%;
+  }
+  .section5 {
+    min-height: 500px;
+  }
+  .section5-img-right2 {
+    display: none;
+  }
+}
+
+/* ---------- section6 的样式 ---------- */
+.section6 {
+  padding: calc(6% - 50px) 0;
+}
+
+.section6-content {
+  position: relative;
+  margin-top: 60px;
+  width: 75%;
+  max-width: 1200px;
+}
+
+.section6-img-right1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 500px;
+}
+
+.section6-img-left {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  width: 16%;
+  min-width: 80px;
+}
+
+.section6-icon-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 160px;
+}
+
+@media (max-width: 600px) {
+  .section6-content {
+    width: 98%;
+  }
+}
