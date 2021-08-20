@@ -22,7 +22,7 @@ SwiperCore.use([Pagination]);
 function SwiperContent(props) {
   const { imgLeft, imgRight, poster, descrElement } = props;
   return (
-    <div className="swiper-content">
+    <div id="Play-to-Earn" className="swiper-content">
       <div className="swiper-content-bg"></div>
       <div className="swiper-content-img-container">
         <img className="swiper-content-img" src={poster} alt="" />
@@ -54,12 +54,17 @@ export default function Section4() {
             imgRight={person7}
             descrElement={
               <ul>
-                <li>Get great gaming experience even with leisure time</li>
                 <li>
-                  Anyone can play for fun regardless of age, boundary, and
-                  operation
+                  Enjoy opening mystery boxes under a transparent and fair
+                  mechanism
                 </li>
-                <li>Fast and easy to get started</li>
+                <li>Yield aggregator makes GameFi more profitable</li>
+                <li>
+                  NFT yield farming enables frictionless flow of NFT in the DeFi
+                  world
+                </li>
+                <li>Liquidity mining accelerator with your NFTs</li>
+                <li>NFT marketplace enables free trade of NFT assets</li>
               </ul>
             }
           />
@@ -71,9 +76,22 @@ export default function Section4() {
             imgRight={person7}
             descrElement={
               <ul>
-                <li>GameFi mechanism combines DeFi and NFT together</li>
-                <li>Diversified gaming experience for different users</li>
-                <li>Earn profit during game playing</li>
+                <li>
+                  Idle Game – enjoy great gaming experience with your spare time
+                </li>
+                <li>
+                  More than 80 materials and 200 weapons – all game properties
+                  are tradable
+                </li>
+                <li>Equipment recycling - another Play to Earn experience</li>
+                <li>
+                  Arm your heroes with stronger weapons and make it to the top
+                  of the leaderboard for amazing rewards
+                </li>
+                <li>
+                  Conquer the world boss together with global gamers and share
+                  the spoils of war
+                </li>
               </ul>
             }
           />
@@ -85,9 +103,15 @@ export default function Section4() {
             imgRight={person7}
             descrElement={
               <ul>
-                <li>GameFi mechanism combines DeFi and NFT together</li>
-                <li>Diversified gaming experience for different users</li>
-                <li>Earn profit during game playing</li>
+                <li>
+                  Simulation Game: own the land of your own Dungeon and become
+                  the ruler
+                </li>
+                <li>Build your own Dungeon and earn abundant rewards</li>
+                <li>
+                  Assemble heroes and team up for an adventure to others'
+                  Dungeons and loot their rewards
+                </li>
               </ul>
             }
           />

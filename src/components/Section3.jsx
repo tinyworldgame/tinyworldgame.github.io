@@ -12,7 +12,7 @@ import diwen_4 from "../images/diwen_4.png"; // 斜杠底纹
 export default function Section3() {
   return (
     <section className="section3">
-      <SectionTitle title="FEATURES" />
+      <SectionTitle id="Features" title="FEATURES" />
       <img className="section3-img-center" src={diwen_1} alt="" />
       <img className="section3-img-left1" src={diwen_3} alt="" />
       <img className="section3-img-right1" src={diwen_4} alt="" />
@@ -21,23 +21,21 @@ export default function Section3() {
           <div className="section3-img-bg section3-img-banner1"></div>
           <div className="section3-img-bg-text">GameFi</div>
           <p>
-            On-chain DeFi and off-chain game system including various types of elements.
+            On-chain DeFi and off-chain game system including various types of
+            elements.
           </p>
         </div>
         <div className="section3-img-box">
           <div className="section3-img-bg section3-img-banner2"></div>
-          <div className="section3-img-bg-text">Conqueror</div>
-          <p>
-            Summon your NFT heroes to enter the Conquerors’ world and build your
-            own dynasty.
-          </p>
+          <div className="section3-img-bg-text">Play Easily</div>
+          <p>Get great gaming experience even in your free time.</p>
         </div>
         <div className="section3-img-box">
           <div className="section3-img-bg section3-img-banner3"></div>
-          <div className="section3-img-bg-text">Dungeons</div>
+          <div className="section3-img-bg-text">Play to Earn</div>
           <p>
-            Become the rule of Dungeons and team up for an adventure to others’
-            Dungeons!
+            Earn profits in many ways, such as yield farming, NFT farming, NFT
+            trading and playing.
           </p>
         </div>
       </div>

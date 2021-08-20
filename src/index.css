@@ -35,11 +35,7 @@ button {
   cursor: pointer;
   color: #fff;
   background-color: transparent;
-  font-family: "ClashRoyale";
-}
-
-ul {
-  padding-left: 0;
+  font-family: ClashRoyale;
 }
 
 .center-bg {

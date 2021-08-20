@@ -1,4 +1,5 @@
 .section-title {
+  position: relative;
   margin: 0 auto;
   width: 85%;
   padding: 1.5% 0;
@@ -9,6 +10,10 @@
   font-family: "ClashRoyale";
   font-size: 1.4rem;
   color: #514b45;
+}
+
+.section-title-anchor {
+  transform: translateY(calc(-60px - 2%));
 }
 
 @media (min-width: 1600px) {

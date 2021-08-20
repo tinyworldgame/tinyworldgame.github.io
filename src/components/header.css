@@ -36,6 +36,7 @@ header > * {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
 }
 
 .header-left, .header-pc-menu {
@@ -44,6 +45,12 @@ header > * {
   align-items: center;
 }
 
+.header-left a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-left a,
 .header-left button {
   margin: 0 0.6rem;
   font-size: 1rem;
@@ -74,6 +81,10 @@ header > * {
   height: 42px;
 }
 
+.header-button-toggle {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   .header-container {
     padding: 0;
@@ -84,4 +95,23 @@ header > * {
   .header-pc-menu {
     display: none;
   }
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 60px;
+  }
+  .header-pc-content {
+    padding-top: 5px;
+  }
+  .header-logo {
+    height: 69px;
+  }
+  .header-button-play {
+    width: 100px;
+    /* display: none; */
+  }
+  /* .header-button-toggle {
+    display: block;
+  } */
 }

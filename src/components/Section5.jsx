@@ -13,7 +13,7 @@ import icon_3 from "../images/icon_3.png"; // 黑白 icon
 export default function Section5() {
   return (
     <section className="section5">
-      <SectionTitle title="Tokenomics" />
+      <SectionTitle id="TNC" title="Tokenomics" />
       <div>
         <img className="section5-img-left1" src={diwen_4} alt="" />
         <img className="section5-img-right1" src={person4h} alt="" />
@@ -21,12 +21,12 @@ export default function Section5() {
       </div>
       <p className="sub-title">What is TNC?</p>
       <p className="section5-text">
-        TINY COIN(TNC) is the governance token for Tiny Kingdom. TNC can be
-        earned by playing the game, yield farming, staking and actively
-        participating in community governance. TNC token is a key component of
-        the Tiny Kingdom’s decentralized game economy that incentivize our
-        players who actively interact with our game and reward developers who
-        contribute to the development of the game.
+        TINY COIN(TNC) is the governance token for Tiny World. TNC can be earned
+        by playing the game, yield farming, staking and actively participating
+        in community governance. TNC token is a key component of the Tiny
+        World’s decentralized game economy that incentivize our players who
+        actively interact with our game and reward developers who contribute to
+        the development of the game.
       </p>
 
       <div className="section5-icons-container">

@@ -5,6 +5,18 @@ import button_2 from "../images/button_2.png";
 import button_3 from "../images/button_3.png";
 import top from "../images/top.png";
 
+function scrollTo(e) {
+  // console.log("event", e);
+  e.preventDefault();
+  const herf = e.target.href;
+  const id = herf.split("#")[1];
+  console.log('id', id);
+  const toElement = document.querySelector("#" + id);
+  toElement.scrollIntoView({
+    behavior: "smooth"
+  });
+}
+
 export default function Header() {
   return (
     <header>
@@ -17,8 +29,18 @@ export default function Header() {
               <span className="header-line">|</span>
               <img className="header-icon-home" src={button_2} alt="" />
               <span className="header-line">|</span>
-              <button>GameFi</button>
-              <button>MarketPlace</button>
+              <a onClick={scrollTo} href="#introduction">
+                Introduction
+              </a>
+              <a onClick={scrollTo} href="#Features">
+                Features
+              </a>
+              <a onClick={scrollTo} href="#Play-to-Earn">
+                Play-to-Earn
+              </a>
+              <a onClick={scrollTo} href="#TNC">
+                TNC
+              </a>
               <button>Docs</button>
             </div>
           </div>
@@ -26,6 +48,7 @@ export default function Header() {
           <button className="header-button-play">
             <img width="100%" src={button_3} alt="" />
           </button>
+          <button className="header-button-toggle">-</button>
         </div>
       </div>
     </header>

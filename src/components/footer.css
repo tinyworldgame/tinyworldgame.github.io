@@ -8,3 +8,10 @@ footer {
   background-repeat: no-repeat;
   overflow: hidden;
 }
+
+@media (max-width: 600px) {
+  footer {
+    height: 60px;
+    line-height: 60px;
+  }
+}
