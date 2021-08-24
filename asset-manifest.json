@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc90d807.chunk.css",
-    "main.js": "/static/js/main.163f4317.chunk.js",
-    "main.js.map": "/static/js/main.163f4317.chunk.js.map",
+    "main.css": "/static/css/main.6dcf964f.chunk.css",
+    "main.js": "/static/js/main.5382642f.chunk.js",
+    "main.js.map": "/static/js/main.5382642f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.de4b533e.js",
     "runtime-main.js.map": "/static/js/runtime-main.de4b533e.js.map",
     "static/css/2.de3252e1.chunk.css": "/static/css/2.de3252e1.chunk.css",
@@ -12,14 +12,13 @@
     "static/js/3.3ca0e623.chunk.js.map": "/static/js/3.3ca0e623.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.de3252e1.chunk.css.map": "/static/css/2.de3252e1.chunk.css.map",
-    "static/css/main.dc90d807.chunk.css.map": "/static/css/main.dc90d807.chunk.css.map",
+    "static/css/main.6dcf964f.chunk.css.map": "/static/css/main.6dcf964f.chunk.css.map",
     "static/js/2.925d030e.chunk.js.LICENSE.txt": "/static/js/2.925d030e.chunk.js.LICENSE.txt",
     "static/media/000.b83438af.png": "/static/media/000.b83438af.png",
     "static/media/a3.472d9d59.png": "/static/media/a3.472d9d59.png",
     "static/media/a3h.bb27d624.png": "/static/media/a3h.bb27d624.png",
     "static/media/a4.7412969f.png": "/static/media/a4.7412969f.png",
     "static/media/a4h.b8679f85.png": "/static/media/a4h.b8679f85.png",
-    "static/media/a6.8487caea.png": "/static/media/a6.8487caea.png",
     "static/media/a7.64897d17.png": "/static/media/a7.64897d17.png",
     "static/media/a8.1c696231.png": "/static/media/a8.1c696231.png",
     "static/media/section.css": "/static/media/di.c0028fa3.png",
@@ -33,7 +32,6 @@
     "static/media/footer.css": "/static/media/down.5150e830.png",
     "static/media/logo-top.9ce8325e.png": "/static/media/logo-top.9ce8325e.png",
     "static/media/logo.06755f41.png": "/static/media/logo.06755f41.png",
-    "static/media/logodi.022cf3e0.png": "/static/media/logodi.022cf3e0.png",
     "static/media/top.e6df7c7a.png": "/static/media/top.e6df7c7a.png",
     "static/media/tu_1.4b0fcaa6.png": "/static/media/tu_1.4b0fcaa6.png",
     "static/media/tu_2.363677e1.png": "/static/media/tu_2.363677e1.png",
@@ -43,7 +41,7 @@
     "static/js/runtime-main.de4b533e.js",
     "static/css/2.de3252e1.chunk.css",
     "static/js/2.925d030e.chunk.js",
-    "static/css/main.dc90d807.chunk.css",
-    "static/js/main.163f4317.chunk.js"
+    "static/css/main.6dcf964f.chunk.css",
+    "static/js/main.5382642f.chunk.js"
   ]
 }
